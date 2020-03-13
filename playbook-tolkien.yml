@@ -1,0 +1,16 @@
+---
+- name: A simple file playbook to bind together Jenkins skills
+  hosts: localhost
+
+  tasks:
+   # make a directory called ~/onering/
+   - name: make a directory
+     file:
+       path: ~/onering/
+       state: directory
+
+   # create a file torulethemall.txt within ~/onering/
+   - name: make a file
+     file:
+       path: ~/onering/torulethemall.txt
+       state: touch
