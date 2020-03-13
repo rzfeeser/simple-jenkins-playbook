@@ -1,6 +1,6 @@
 ---
 - name: A simple file playbook to bind together Jenkins skills
-  hosts: localhost
+  hosts: fry
 
   tasks:
    # make a directory called ~/onering/
