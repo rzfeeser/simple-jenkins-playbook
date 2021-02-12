@@ -16,8 +16,15 @@
        path: /tmp/onering/torulethemall.txt
        state: touch
        
-   # create a file torulethemall.txt within ~/onering/
+   # create a file andinthedarkness.txt within ~/onering/
    - name: make a file
      file:
-       path: /tmp/onering/oneringtobindthem.txt
+       path: /tmp/onering/andinthedarkness.txt
+       state: touch
+
+
+   # create a file bindthem.txt within ~/onering/
+   - name: make a file
+     file:
+       path: /tmp/onering/bindthem.txt
        state: touch
