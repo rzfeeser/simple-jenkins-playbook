@@ -1,5 +1,5 @@
 ---
-- name: A simple file playbook to bind together Jenkins skills 
+- name: A simple file playbook to bind together Jenkins skills  
   hosts: localhost
   connection: local
 
