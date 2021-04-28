@@ -1,7 +1,7 @@
 ---
 - name: A simple file playbook to bind together Jenkins skills  
   hosts: localhost
-  connection: local
+  connection: local # no ssh
 
   tasks:
    # make a directory called ~/onering/
