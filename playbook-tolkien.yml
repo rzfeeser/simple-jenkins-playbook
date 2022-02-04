@@ -8,7 +8,7 @@
    - name: make a directory
      file:
        path: /tmp/onering/
-       state: directory  # we want this directory created
+       state: directory  # we want this directory created 
 
    # create a file torulethemall.txt within ~/onering/
    - name: make a file
